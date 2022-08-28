@@ -36,8 +36,21 @@ export default function Home(props: any){
             setLoading(false)
         }, 300)
     }
+
+    
     useEffect(() => {
         getaData()
+        function handleHash({newURL, oldURL}: HashChangeEvent) {
+            if (newURL !== oldURL && newURL.indexOf('#cart') === -1) {
+                close()
+            }
+        }
+
+        window.addEventListener('hashchange', handleHash, false)
+
+        return () => {
+            window.removeEventListener('hashchange', handleHash, false)
+        }
         // eslint-disable-next-line
     }, [])
 
