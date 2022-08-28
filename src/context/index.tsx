@@ -2,14 +2,6 @@
 import { createContext, useContext, useReducer } from 'react';
 import { GoodItemType } from '../interface/type';
 
-interface Item {
-    productId: number,
-    productName: '商品1',
-    number: 1,
-    price: 333,
-    salePrice: 222
-}
-
 interface State {
     goods?: GoodItemType[];
     carts?: GoodItemType[]

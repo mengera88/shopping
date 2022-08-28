@@ -40,6 +40,7 @@ export default function Home(props: any){
     
     useEffect(() => {
         getaData()
+        
         function handleHash({newURL, oldURL}: HashChangeEvent) {
             if (newURL !== oldURL && newURL.indexOf('#cart') === -1) {
                 close()
