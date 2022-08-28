@@ -1,28 +1,28 @@
-import { ArrowBackIcon } from '@chakra-ui/icons'
+import { ArrowBackIcon } from '@chakra-ui/icons';
 import {
-    Box, Button, Drawer,
-    DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter,
+    Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter,
     DrawerHeader,
-    DrawerOverlay, SkeletonCircle,
+    DrawerOverlay, Link, SkeletonCircle,
     SkeletonText
-} from '@chakra-ui/react'
-import { cloneDeep, findIndex } from 'lodash'
-import { useEffect, useState } from 'react'
-import { useDispatchStore, useStateStore } from '../../context'
-import { useVisible } from '../../hooks'
-import mockData from '../../interface/products.json'
-import CartDetail from './components/cart-detail'
-import GoodItem from './components/good-item'
-import styles from './index.module.scss'
+} from '@chakra-ui/react';
+import { cloneDeep, findIndex } from 'lodash';
+import { useCallback, useEffect, useState } from 'react';
+import { useDispatchStore, useStateStore } from '../../context';
+import { useVisible } from '../../hooks';
+import mockData from '../../interface/products.json';
+import CartDetail from './components/cart-detail';
+import GoodItem from './components/good-item';
+import styles from './index.module.scss';
 
 type drawerSizeType = 'md' | 'full'
 
-export default function Home(){
+export default function Home(props: any){
     const { goods, carts } = useStateStore()
     const dispatch = useDispatchStore()
     const [loading, setLoading] = useState<boolean>(false)
     const {visible, open, close} = useVisible(false)
-    const [drawerSise, setDrawerSize] = useState<drawerSizeType>('md')
+    const [drawerSise, setDrawerSize] = useState<drawerSizeType>(window.location.hash.indexOf('#cart') === -1 ? 'md' : 'full')
+    console.log('init')
 
     const getaData = () => {
         setLoading(true)
@@ -40,7 +40,7 @@ export default function Home(){
         getaData()
     }, [])
 
-    const handleAddToChart = (id: string, index: number) => {
+    const handleAddToChart = useCallback((id: string, index: number) => {
         const good = (goods||[])[index]
         const newCarts = cloneDeep(carts) || []
         const cartIndex = findIndex(carts, (cart) => { return cart.uniqueId === id})
@@ -54,16 +54,19 @@ export default function Home(){
             data: newCarts
         })
         open()
-    }
+    }, [goods, carts])
 
-    const handleQuantityChange = (e: number, index: number) => {
+    const handleQuantityChange = useCallback((e: number, index: number) => {
         const newGoods = cloneDeep(goods) || []
-        console.log(e, index, newGoods)
         newGoods[index].quantity = e
         dispatch({
             type: 'setgoods',
             data: newGoods
         })
+    }, [goods])
+
+    const handleDetail = () => {
+        setDrawerSize('full')
     }
 
     if (loading) {
@@ -92,7 +95,7 @@ export default function Home(){
                     <DrawerHeader>
                        {drawerSise === 'full' && (
                         <>
-                        <ArrowBackIcon />
+                        <Link><ArrowBackIcon onClick={close} /></Link>
                         continue shopping
                         </>
                        )}
@@ -107,10 +110,14 @@ export default function Home(){
                         <CartDetail />
                     </DrawerBody>
                     <DrawerFooter>
-                        <Button variant='outline' mr={3} onClick={close}>
-                            Cancel
-                        </Button>
-                        <Button colorScheme='blue'>Save</Button>
+                        <div className={styles.drawerfooter}>
+                            <Button width='100%' colorScheme='blue'>checkout</Button>
+                            {drawerSise === 'md'  && (
+                                <Link color='blue.500' href="#cart" onClick={handleDetail}>
+                                    view detail cart
+                                </Link>
+                            )}
+                        </div>
                     </DrawerFooter>
                 </DrawerContent>
             </Drawer>

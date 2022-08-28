@@ -6,7 +6,6 @@ import {
     NumberInputField,
     NumberInputStepper
 } from '@chakra-ui/react'
-import { useCallback } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
@@ -17,9 +16,9 @@ interface CartItemProps {
 
 export default function CartItem({data, onQuantityChange}: CartItemProps) {
     
-    const handleQuantityChange = useCallback((e: string | number) => {
+    const handleQuantityChange = (e: string | number) => {
         onQuantityChange && onQuantityChange(+e)
-    }, [])
+    }
 
     return (
         <div className={styles.wrapper}>

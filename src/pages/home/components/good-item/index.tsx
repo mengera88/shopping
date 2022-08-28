@@ -6,7 +6,6 @@ import {
     NumberInputStepper,
     Text
 } from '@chakra-ui/react'
-import { useCallback } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
@@ -18,13 +17,13 @@ interface GoodItemProps {
 
 export default function GoodItem({data, addToChart, onQuantityChange}: GoodItemProps) {
 
-    const handleQuantityChange = useCallback((e: string | number) => {
+    const handleQuantityChange = (e: string | number) => {
         onQuantityChange && onQuantityChange(typeof e === 'string' ? parseInt(e) : e)
-    }, [])
+    }
 
-    const addChart = useCallback(() => {
+    const addChart = () => {
         addToChart && addToChart(data.uniqueId)
-    }, [data])
+    }
 
     return (
         <div className={styles.item} key={data.uniqueId}>
