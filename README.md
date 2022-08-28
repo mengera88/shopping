@@ -1,3 +1,15 @@
+# 一些说明
+
+由于时间和其他考量，只实现了满足题目要求的一些动态数据交互效果，没有完全按照网站提供的样式去实现
+数据是用了mock数据，详见interface中的product.json文件，该数据取自给的demo的接口返回，其中数据中的quantity的含义做了变更，在本次实现中表示选中的数量
+
+初次使用Chakra UI
+整页版本也做了
+
+由于不知道promo code的效果，所以这次没有实现。在demo中尝试乱写了一些promo code 都提示invalid code。不清楚正确的效果形式
+
+在状态管理中，由于是比较小型的项目，没有使用redux等比较重的状态管理方案，而是使用的context作为轻量级的状态管理方案，详见 context 文件夹。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
