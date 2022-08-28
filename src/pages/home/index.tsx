@@ -38,6 +38,7 @@ export default function Home(props: any){
     }
     useEffect(() => {
         getaData()
+        // eslint-disable-next-line
     }, [])
 
     const handleAddToChart = useCallback((id: string, index: number) => {

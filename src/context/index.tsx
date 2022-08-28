@@ -1,3 +1,4 @@
+/** eslint-disable */
 import { createContext, useContext, useReducer } from 'react';
 import { GoodItemType } from '../interface/type';
 
