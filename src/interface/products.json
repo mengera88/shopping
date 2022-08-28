@@ -1,0 +1,2940 @@
+{
+    "mode": "Test",
+    "cart": {
+        "items": [
+            {
+                "uniqueId": "df37ec41-567f-446a-953c-9dd2720c7e81",
+                "token": "",
+                "id": "demo-starry-night",
+                "name": "Starry Night",
+                "price": 79.95,
+                "description": "High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh.",
+                "hasTaxesIncluded": false,
+                "categories": [],
+                "url": "https://demo.snipcart.com/",
+                "fileGuid": null,
+                "image": "https://demo.snipcart.com/images/starry-night.jpg",
+                "quantity": 11,
+                "quantityStep": 1,
+                "minQuantity": null,
+                "maxQuantity": null,
+                "stackable": true,
+                "shippable": true,
+                "taxable": true,
+                "taxes": [],
+                "customFields": [],
+                "duplicatable": false,
+                "downloadLink": "",
+                "metadata": null,
+                "alternatePrices": {},
+                "dimensions": {
+                    "width": null,
+                    "height": null,
+                    "length": null,
+                    "weight": null
+                },
+                "stock": {
+                    "isInStock": true
+                },
+                "unitPrice": 79.95,
+                "totalPrice": 879.45,
+                "totalPriceWithoutTaxes": 879.45,
+                "totalPriceWithoutDiscountsAndTaxes": 747.53,
+                "totalPriceWithoutDiscountsAndTaxesLegacy": 747.53,
+                "addedOn": 1661582508,
+                "initialData": "",
+                "modificationDate": 1661584234,
+                "pausingAction": "None",
+                "cancellationAction": "None",
+                "isRecurring": false,
+                "isRecurringV2": false,
+                "isRecurringV3": false,
+                "availablePlans": [],
+                "selectedPlanId": "",
+                "paymentGatewayId": ""
+            },
+            {
+                "uniqueId": "2cf32755-590f-4ff1-b996-c892af744991",
+                "token": "",
+                "id": "demo-irises",
+                "name": "Irises",
+                "price": 65.95,
+                "description": "Irises is yet again, another painting by the Dutch artist Vincent van Gogh.",
+                "hasTaxesIncluded": false,
+                "categories": [],
+                "url": "https://demo.snipcart.com/",
+                "fileGuid": null,
+                "image": "https://demo.snipcart.com/images/painting.jpg",
+                "quantity": 15,
+                "quantityStep": 1,
+                "minQuantity": null,
+                "maxQuantity": null,
+                "stackable": true,
+                "shippable": true,
+                "taxable": true,
+                "taxes": [],
+                "customFields": [],
+                "duplicatable": false,
+                "downloadLink": "",
+                "metadata": null,
+                "alternatePrices": {},
+                "dimensions": {
+                    "width": null,
+                    "height": null,
+                    "length": null,
+                    "weight": null
+                },
+                "stock": {
+                    "isInStock": true
+                },
+                "unitPrice": 65.95,
+                "totalPrice": 989.25,
+                "totalPriceWithoutTaxes": 989.25,
+                "totalPriceWithoutDiscountsAndTaxes": 830.49,
+                "totalPriceWithoutDiscountsAndTaxesLegacy": 830.49,
+                "addedOn": 1661577549,
+                "initialData": "",
+                "modificationDate": 1661577780,
+                "pausingAction": "None",
+                "cancellationAction": "None",
+                "isRecurring": false,
+                "isRecurringV2": false,
+                "isRecurringV3": false,
+                "availablePlans": [],
+                "selectedPlanId": "",
+                "paymentGatewayId": ""
+            },
+            {
+                "uniqueId": "47d9c1d4-a3dd-41f4-a9c3-277185bab5cb",
+                "token": "",
+                "id": "demo-rosy",
+                "name": "Rosy-Fingered Dawn at Louse Point",
+                "price": 49.95,
+                "description": "The title Rosy-Fingered Dawn at Louse Point refers to one of Willem de Kooning's favourite places in Long Island.",
+                "hasTaxesIncluded": false,
+                "categories": [],
+                "url": "https://demo.snipcart.com/",
+                "fileGuid": null,
+                "image": "https://demo.snipcart.com/images/rosy.jpg",
+                "quantity": 3,
+                "quantityStep": 1,
+                "minQuantity": null,
+                "maxQuantity": null,
+                "stackable": true,
+                "shippable": true,
+                "taxable": true,
+                "taxes": [],
+                "customFields": [],
+                "duplicatable": false,
+                "downloadLink": "",
+                "metadata": null,
+                "alternatePrices": {},
+                "dimensions": {
+                    "width": null,
+                    "height": null,
+                    "length": null,
+                    "weight": null
+                },
+                "stock": {
+                    "isInStock": true
+                },
+                "unitPrice": 49.95,
+                "totalPrice": 149.85,
+                "totalPriceWithoutTaxes": 149.85,
+                "totalPriceWithoutDiscountsAndTaxes": 137.75,
+                "totalPriceWithoutDiscountsAndTaxesLegacy": 137.75,
+                "addedOn": 1661577541,
+                "initialData": "",
+                "modificationDate": 1661577541,
+                "pausingAction": "None",
+                "cancellationAction": "None",
+                "isRecurring": false,
+                "isRecurringV2": false,
+                "isRecurringV3": false,
+                "availablePlans": [],
+                "selectedPlanId": "",
+                "paymentGatewayId": ""
+            }
+        ],
+        "location": "https://demo.snipcart.com/",
+        "ipAddress": "67.198.189.7",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+        "lang": "en",
+        "email": "",
+        "status": "InProgress",
+        "shipToBillingAddress": true,
+        "billingAddress": {
+            "fullName": "",
+            "firstName": null,
+            "name": "",
+            "company": null,
+            "address1": "",
+            "address2": "",
+            "fullAddress": "",
+            "city": "",
+            "country": "",
+            "postalCode": "",
+            "province": null,
+            "phone": null,
+            "vatNumber": null,
+            "hasMinimalRequiredInfo": false,
+            "validationErrors": {
+                "address1": "required",
+                "name": "required",
+                "city": "required",
+                "postalCode": "required"
+            }
+        },
+        "recoveryCampaignStatus": {
+            "actionsNeeded": false,
+            "unsubscribed": false,
+            "preProcessed": false,
+            "campaignId": null,
+            "futureCampaignsSteps": [],
+            "stepsExecuted": []
+        },
+        "completionDate": null,
+        "invoiceNumber": "",
+        "shippingInformation": {
+            "method": null
+        },
+        "hasItemsShippable": true,
+        "paymentMethod": null,
+        "paymentDetails": {
+            "iconUrl": null,
+            "display": null,
+            "instructions": null
+        },
+        "summary": {
+            "subtotal": 1715.77,
+            "taxableTotal": 2018.55,
+            "total": 1715.77,
+            "payableNow": 1715.77,
+            "paymentMethod": null,
+            "taxes": [],
+            "discountInducedTaxesVariation": 0.0,
+            "shipping": null
+        },
+        "customFields": [],
+        "refunds": [],
+        "notifications": [],
+        "taxes": [],
+        "defaultTaxes": [],
+        "currency": "usd",
+        "totalWeight": 0.0,
+        "baseTotal": 2018.55,
+        "total": 1715.77,
+        "discountsTotal": 302.78,
+        "itemsTotalWithoutTaxes": 1715.77,
+        "taxesTotal": 0.0,
+        "taxProvider": null,
+        "paymentGatewayUsed": "None",
+        "gatewayResponseData": "",
+        "paymentGatewayTransactionId": "",
+        "paymentSessionId": "",
+        "paymentGatewayInvoiceId": "",
+        "parentCartId": "",
+        "guest": false,
+        "shippingCharged": false,
+        "isRecurringInvoice": false,
+        "mode": "Test",
+        "discounts": [
+            {
+                "id": "168743ce-125d-4acf-a6f7-59694c13dc90",
+                "discountId": "cb7cf9e3-d814-4dd2-9484-97a34b887ba4",
+                "amountSaved": 302.78,
+                "name": "Discount 20pcs or more",
+                "value": -302.78,
+                "type": "Rate",
+                "trigger": "QuantityOfAProduct",
+                "triggerCategories": [],
+                "triggerProducts": [],
+                "maxAmountToReach": null,
+                "maxDiscountsPerItem": null,
+                "code": "",
+                "alternatePrice": "",
+                "affectedItems": [],
+                "rate": 15.0,
+                "products": [],
+                "categoryNames": [],
+                "appliesOnAllRecurringOrders": false,
+                "isForARecoveryCampaign": false,
+                "normalizedRate": 0.15,
+                "onlyOnSameProducts": false,
+                "numberOfItemsRequired": null,
+                "numberOfFreeItems": null,
+                "quantityOfProducts": []
+            }
+        ],
+        "itemsTotal": 2018.55,
+        "totalPriceWithoutDiscountsAndTaxes": 1715.77,
+        "token": "0d742a7f-55fb-4f39-9282-44ec67f5fc73",
+        "version": "2021-04-06",
+        "exported": false,
+        "accountId": 0,
+        "id": "0d742a7f-55fb-4f39-9282-44ec67f5fc73",
+        "partitionKey": "004",
+        "sortKey": "Cart#0d742a7f-55fb-4f39-9282-44ec67f5fc73",
+        "creationDate": 1661577445,
+        "modificationDate": 1661577445,
+        "_etag": "\"3c001ff2-0000-0200-0000-6309c36a0000\"",
+        "ttl": 2592000
+    },
+    "cultureSettings": null,
+    "domain": null,
+    "businessName": "Snipcart",
+    "logoUrl": "https://uploads.snipcart.com/accountfiles4/logo__snipcart-simple--250x250%20copy.png",
+    "websiteUrl": "https://snipcart.com",
+    "settings": {
+        "apiKey": "MzMxN2Y0ODMtOWNhMy00YzUzLWFiNTYtZjMwZTRkZDcxYzM4",
+        "countries": [
+            {
+                "name": "Canada",
+                "code": "CA",
+                "currencyCode": "CAD",
+                "featured": true,
+                "states": [
+                    {
+                        "name": "Alberta",
+                        "code": "AB",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "British Columbia",
+                        "code": "BC",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Manitoba",
+                        "code": "MB",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "New Brunswick",
+                        "code": "NB",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Newfoundland",
+                        "code": "NL",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Northwest Territories",
+                        "code": "NT",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Nova Scotia",
+                        "code": "NS",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Nunavut",
+                        "code": "NU",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Ontario",
+                        "code": "ON",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Prince Edward Island",
+                        "code": "PE",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Québec",
+                        "code": "QC",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Saskatchewan",
+                        "code": "SK",
+                        "countryCode": "CA"
+                    },
+                    {
+                        "name": "Yukon",
+                        "code": "YT",
+                        "countryCode": "CA"
+                    }
+                ]
+            },
+            {
+                "name": "United States",
+                "code": "US",
+                "currencyCode": "USD",
+                "featured": true,
+                "states": [
+                    {
+                        "name": "Alabama",
+                        "code": "AL",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Alaska",
+                        "code": "AK",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "American Samoa",
+                        "code": "AS",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Arizona",
+                        "code": "AZ",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Arkansas",
+                        "code": "AR",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "California",
+                        "code": "CA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Colorado",
+                        "code": "CO",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Connecticut",
+                        "code": "CT",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Delaware",
+                        "code": "DE",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "District Of Columbia",
+                        "code": "DC",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Federated States Of Micronesia",
+                        "code": "FM",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Florida",
+                        "code": "FL",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Georgia",
+                        "code": "GA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Guam",
+                        "code": "GU",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Hawaii",
+                        "code": "HI",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Idaho",
+                        "code": "ID",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Illinois",
+                        "code": "IL",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Indiana",
+                        "code": "IN",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Iowa",
+                        "code": "IA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Kansas",
+                        "code": "KS",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Kentucky",
+                        "code": "KY",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Louisiana",
+                        "code": "LA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Maine",
+                        "code": "ME",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Marshall Islands",
+                        "code": "MH",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Maryland",
+                        "code": "MD",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Massachusetts",
+                        "code": "MA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Michigan",
+                        "code": "MI",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Minnesota",
+                        "code": "MN",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Mississippi",
+                        "code": "MS",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Missouri",
+                        "code": "MO",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Montana",
+                        "code": "MT",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Nebraska",
+                        "code": "NE",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Nevada",
+                        "code": "NV",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "New Hampshire",
+                        "code": "NH",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "New Jersey",
+                        "code": "NJ",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "New Mexico",
+                        "code": "NM",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "New York",
+                        "code": "NY",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "North Carolina",
+                        "code": "NC",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "North Dakota",
+                        "code": "ND",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Northern Mariana Islands",
+                        "code": "MP",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Ohio",
+                        "code": "OH",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Oklahoma",
+                        "code": "OK",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Oregon",
+                        "code": "OR",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Palau",
+                        "code": "PW",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Pennsylvania",
+                        "code": "PA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Puerto Rico",
+                        "code": "PR",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Rhode Island",
+                        "code": "RI",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "South Carolina",
+                        "code": "SC",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "South Dakota",
+                        "code": "SD",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Tennessee",
+                        "code": "TN",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Texas",
+                        "code": "TX",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Utah",
+                        "code": "UT",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Vermont",
+                        "code": "VT",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Virgin Islands",
+                        "code": "VI",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Virginia",
+                        "code": "VA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Washington",
+                        "code": "WA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "West Virginia",
+                        "code": "WV",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Wisconsin",
+                        "code": "WI",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Wyoming",
+                        "code": "WY",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Armed Forces Americas",
+                        "code": "AA",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Armed Forces Europe",
+                        "code": "AE",
+                        "countryCode": "US"
+                    },
+                    {
+                        "name": "Armed Forces Pacific",
+                        "code": "AP",
+                        "countryCode": "US"
+                    }
+                ]
+            },
+            {
+                "name": "Afghanistan",
+                "code": "AF",
+                "currencyCode": "AFN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Åland",
+                "code": "AX",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Albania",
+                "code": "AL",
+                "currencyCode": "ALL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Algeria",
+                "code": "DZ",
+                "currencyCode": "DZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "American Samoa",
+                "code": "AS",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Andorra",
+                "code": "AD",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Angola",
+                "code": "AO",
+                "currencyCode": "AOA",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Anguilla",
+                "code": "AI",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Antarctica",
+                "code": "AQ",
+                "currencyCode": "",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Antigua and Barbuda",
+                "code": "AG",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Argentina",
+                "code": "AR",
+                "currencyCode": "ARS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Armenia",
+                "code": "AM",
+                "currencyCode": "AMD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Aruba",
+                "code": "AW",
+                "currencyCode": "AWG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Australia",
+                "code": "AU",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Austria",
+                "code": "AT",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Azerbaijan",
+                "code": "AZ",
+                "currencyCode": "AZN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bahamas",
+                "code": "BS",
+                "currencyCode": "BSD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bahrain",
+                "code": "BH",
+                "currencyCode": "BHD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bangladesh",
+                "code": "BD",
+                "currencyCode": "BDT",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Barbados",
+                "code": "BB",
+                "currencyCode": "BBD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Belarus",
+                "code": "BY",
+                "currencyCode": "BYR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Belgium",
+                "code": "BE",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Belize",
+                "code": "BZ",
+                "currencyCode": "BZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Benin",
+                "code": "BJ",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bermuda",
+                "code": "BM",
+                "currencyCode": "BMD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bhutan",
+                "code": "BT",
+                "currencyCode": "BTN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bolivia",
+                "code": "BO",
+                "currencyCode": "BOB",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bonaire",
+                "code": "BQ",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bosnia and Herzegovina",
+                "code": "BA",
+                "currencyCode": "BAM",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Botswana",
+                "code": "BW",
+                "currencyCode": "BWP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bouvet Island",
+                "code": "BV",
+                "currencyCode": "NOK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Brazil",
+                "code": "BR",
+                "currencyCode": "BRL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "British Indian Ocean Territory",
+                "code": "IO",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "British Virgin Islands",
+                "code": "VG",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Brunei",
+                "code": "BN",
+                "currencyCode": "BND",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Bulgaria",
+                "code": "BG",
+                "currencyCode": "BGN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Burkina Faso",
+                "code": "BF",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Burundi",
+                "code": "BI",
+                "currencyCode": "BIF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cambodia",
+                "code": "KH",
+                "currencyCode": "KHR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cameroon",
+                "code": "CM",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cape Verde",
+                "code": "CV",
+                "currencyCode": "CVE",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cayman Islands",
+                "code": "KY",
+                "currencyCode": "KYD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Central African Republic",
+                "code": "CF",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Chad",
+                "code": "TD",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Chile",
+                "code": "CL",
+                "currencyCode": "CLP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "China",
+                "code": "CN",
+                "currencyCode": "CNY",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Christmas Island",
+                "code": "CX",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cocos [Keeling] Islands",
+                "code": "CC",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Colombia",
+                "code": "CO",
+                "currencyCode": "COP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Comoros",
+                "code": "KM",
+                "currencyCode": "KMF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Congo",
+                "code": "CD",
+                "currencyCode": "CDF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cook Islands",
+                "code": "CK",
+                "currencyCode": "NZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Costa Rica",
+                "code": "CR",
+                "currencyCode": "CRC",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Croatia",
+                "code": "HR",
+                "currencyCode": "HRK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cuba",
+                "code": "CU",
+                "currencyCode": "CUP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Curacao",
+                "code": "CW",
+                "currencyCode": "ANG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Cyprus",
+                "code": "CY",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Czechia",
+                "code": "CZ",
+                "currencyCode": "CZK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Denmark",
+                "code": "DK",
+                "currencyCode": "DKK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Djibouti",
+                "code": "DJ",
+                "currencyCode": "DJF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Dominica",
+                "code": "DM",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Dominican Republic",
+                "code": "DO",
+                "currencyCode": "DOP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "East Timor",
+                "code": "TL",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ecuador",
+                "code": "EC",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Egypt",
+                "code": "EG",
+                "currencyCode": "EGP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "El Salvador",
+                "code": "SV",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Equatorial Guinea",
+                "code": "GQ",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Eritrea",
+                "code": "ER",
+                "currencyCode": "ERN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Estonia",
+                "code": "EE",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ethiopia",
+                "code": "ET",
+                "currencyCode": "ETB",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Falkland Islands",
+                "code": "FK",
+                "currencyCode": "FKP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Faroe Islands",
+                "code": "FO",
+                "currencyCode": "DKK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Fiji",
+                "code": "FJ",
+                "currencyCode": "FJD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Finland",
+                "code": "FI",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "France",
+                "code": "FR",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "French Guiana",
+                "code": "GF",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "French Polynesia",
+                "code": "PF",
+                "currencyCode": "XPF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "French Southern Territories",
+                "code": "TF",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Gabon",
+                "code": "GA",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Gambia",
+                "code": "GM",
+                "currencyCode": "GMD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Georgia",
+                "code": "GE",
+                "currencyCode": "GEL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Germany",
+                "code": "DE",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ghana",
+                "code": "GH",
+                "currencyCode": "GHS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Gibraltar",
+                "code": "GI",
+                "currencyCode": "GIP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Greece",
+                "code": "GR",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Greenland",
+                "code": "GL",
+                "currencyCode": "DKK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Grenada",
+                "code": "GD",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guadeloupe",
+                "code": "GP",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guam",
+                "code": "GU",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guatemala",
+                "code": "GT",
+                "currencyCode": "GTQ",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guernsey",
+                "code": "GG",
+                "currencyCode": "GBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guinea",
+                "code": "GN",
+                "currencyCode": "GNF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guinea-Bissau",
+                "code": "GW",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Guyana",
+                "code": "GY",
+                "currencyCode": "GYD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Haiti",
+                "code": "HT",
+                "currencyCode": "HTG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Heard Island and McDonald Islands",
+                "code": "HM",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Honduras",
+                "code": "HN",
+                "currencyCode": "HNL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Hong Kong",
+                "code": "HK",
+                "currencyCode": "HKD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Hungary",
+                "code": "HU",
+                "currencyCode": "HUF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Iceland",
+                "code": "IS",
+                "currencyCode": "ISK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "India",
+                "code": "IN",
+                "currencyCode": "INR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Indonesia",
+                "code": "ID",
+                "currencyCode": "IDR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Iran",
+                "code": "IR",
+                "currencyCode": "IRR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Iraq",
+                "code": "IQ",
+                "currencyCode": "IQD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ireland",
+                "code": "IE",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Isle of Man",
+                "code": "IM",
+                "currencyCode": "GBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Israel",
+                "code": "IL",
+                "currencyCode": "ILS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Italy",
+                "code": "IT",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ivory Coast",
+                "code": "CI",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Jamaica",
+                "code": "JM",
+                "currencyCode": "JMD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Japan",
+                "code": "JP",
+                "currencyCode": "JPY",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Jersey",
+                "code": "JE",
+                "currencyCode": "GBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Jordan",
+                "code": "JO",
+                "currencyCode": "JOD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kazakhstan",
+                "code": "KZ",
+                "currencyCode": "KZT",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kenya",
+                "code": "KE",
+                "currencyCode": "KES",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kiribati",
+                "code": "KI",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kosovo",
+                "code": "XK",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kuwait",
+                "code": "KW",
+                "currencyCode": "KWD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Kyrgyzstan",
+                "code": "KG",
+                "currencyCode": "KGS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Laos",
+                "code": "LA",
+                "currencyCode": "LAK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Latvia",
+                "code": "LV",
+                "currencyCode": "LVL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Lebanon",
+                "code": "LB",
+                "currencyCode": "LBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Lesotho",
+                "code": "LS",
+                "currencyCode": "LSL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Liberia",
+                "code": "LR",
+                "currencyCode": "LRD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Libya",
+                "code": "LY",
+                "currencyCode": "LYD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Liechtenstein",
+                "code": "LI",
+                "currencyCode": "CHF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Lithuania",
+                "code": "LT",
+                "currencyCode": "LTL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Luxembourg",
+                "code": "LU",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Macao",
+                "code": "MO",
+                "currencyCode": "MOP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Macedonia",
+                "code": "MK",
+                "currencyCode": "MKD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Madagascar",
+                "code": "MG",
+                "currencyCode": "MGA",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Malawi",
+                "code": "MW",
+                "currencyCode": "MWK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Malaysia",
+                "code": "MY",
+                "currencyCode": "MYR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Maldives",
+                "code": "MV",
+                "currencyCode": "MVR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mali",
+                "code": "ML",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Malta",
+                "code": "MT",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Marshall Islands",
+                "code": "MH",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Martinique",
+                "code": "MQ",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mauritania",
+                "code": "MR",
+                "currencyCode": "MRO",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mauritius",
+                "code": "MU",
+                "currencyCode": "MUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mayotte",
+                "code": "YT",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mexico",
+                "code": "MX",
+                "currencyCode": "MXN",
+                "featured": false,
+                "states": [
+                    {
+                        "name": "Aguascalientes",
+                        "code": "AGU",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Baja California",
+                        "code": "BCN",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Baja California Sur",
+                        "code": "BCS",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Campeche",
+                        "code": "CAM",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Chiapas",
+                        "code": "CHP",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Chihuahua",
+                        "code": "CHH",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Ciudad de México",
+                        "code": "CDMX",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Coahuila",
+                        "code": "COA",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Colima",
+                        "code": "COL",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Durango",
+                        "code": "DUR",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Guanajuato",
+                        "code": "GUA",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Guerrero",
+                        "code": "GRO",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Hidalgo",
+                        "code": "HID",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Jalisco",
+                        "code": "JAL",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "México",
+                        "code": "MEX",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Michoacán",
+                        "code": "MIC",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Morelos",
+                        "code": "MOR",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Nayarit",
+                        "code": "NAY",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Nuevo León",
+                        "code": "NLE",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Oaxaca",
+                        "code": "OAX",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Puebla",
+                        "code": "PUE",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Querétaro",
+                        "code": "QUE",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Quintana Roo",
+                        "code": "ROO",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "San Luis Potosí",
+                        "code": "SLP",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Sinaloa",
+                        "code": "SIN",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Sonora",
+                        "code": "SON",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Tabasco",
+                        "code": "TAB",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Tamaulipas",
+                        "code": "TAM",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Tlaxcala",
+                        "code": "TLA",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Veracruz",
+                        "code": "VER",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Yucatán",
+                        "code": "YUC",
+                        "countryCode": "MX"
+                    },
+                    {
+                        "name": "Zacatecas",
+                        "code": "ZAC",
+                        "countryCode": "MX"
+                    }
+                ]
+            },
+            {
+                "name": "Micronesia",
+                "code": "FM",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Moldova",
+                "code": "MD",
+                "currencyCode": "MDL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Monaco",
+                "code": "MC",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mongolia",
+                "code": "MN",
+                "currencyCode": "MNT",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Montenegro",
+                "code": "ME",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Montserrat",
+                "code": "MS",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Morocco",
+                "code": "MA",
+                "currencyCode": "MAD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Mozambique",
+                "code": "MZ",
+                "currencyCode": "MZN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Myanmar [Burma]",
+                "code": "MM",
+                "currencyCode": "MMK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Namibia",
+                "code": "NA",
+                "currencyCode": "NAD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Nauru",
+                "code": "NR",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Nepal",
+                "code": "NP",
+                "currencyCode": "NPR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "New Caledonia",
+                "code": "NC",
+                "currencyCode": "XPF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "New Zealand",
+                "code": "NZ",
+                "currencyCode": "NZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Nicaragua",
+                "code": "NI",
+                "currencyCode": "NIO",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Niger",
+                "code": "NE",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Nigeria",
+                "code": "NG",
+                "currencyCode": "NGN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Niue",
+                "code": "NU",
+                "currencyCode": "NZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Norfolk Island",
+                "code": "NF",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "North Korea",
+                "code": "KP",
+                "currencyCode": "KPW",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Northern Mariana Islands",
+                "code": "MP",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Norway",
+                "code": "NO",
+                "currencyCode": "NOK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Oman",
+                "code": "OM",
+                "currencyCode": "OMR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Pakistan",
+                "code": "PK",
+                "currencyCode": "PKR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Palau",
+                "code": "PW",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Palestine",
+                "code": "PS",
+                "currencyCode": "ILS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Panama",
+                "code": "PA",
+                "currencyCode": "PAB",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Papua New Guinea",
+                "code": "PG",
+                "currencyCode": "PGK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Paraguay",
+                "code": "PY",
+                "currencyCode": "PYG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Peru",
+                "code": "PE",
+                "currencyCode": "PEN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Philippines",
+                "code": "PH",
+                "currencyCode": "PHP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Pitcairn Islands",
+                "code": "PN",
+                "currencyCode": "NZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Poland",
+                "code": "PL",
+                "currencyCode": "PLN",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Portugal",
+                "code": "PT",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Puerto Rico",
+                "code": "PR",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Qatar",
+                "code": "QA",
+                "currencyCode": "QAR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Republic of the Congo",
+                "code": "CG",
+                "currencyCode": "XAF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Réunion",
+                "code": "RE",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Romania",
+                "code": "RO",
+                "currencyCode": "RON",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Russia",
+                "code": "RU",
+                "currencyCode": "RUB",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Rwanda",
+                "code": "RW",
+                "currencyCode": "RWF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Barthélemy",
+                "code": "BL",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Helena",
+                "code": "SH",
+                "currencyCode": "SHP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Kitts and Nevis",
+                "code": "KN",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Lucia",
+                "code": "LC",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Martin",
+                "code": "MF",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Pierre and Miquelon",
+                "code": "PM",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saint Vincent and the Grenadines",
+                "code": "VC",
+                "currencyCode": "XCD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Samoa",
+                "code": "WS",
+                "currencyCode": "WST",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "San Marino",
+                "code": "SM",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "São Tomé and Príncipe",
+                "code": "ST",
+                "currencyCode": "STD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Saudi Arabia",
+                "code": "SA",
+                "currencyCode": "SAR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Senegal",
+                "code": "SN",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Serbia",
+                "code": "RS",
+                "currencyCode": "RSD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Seychelles",
+                "code": "SC",
+                "currencyCode": "SCR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Sierra Leone",
+                "code": "SL",
+                "currencyCode": "SLL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Singapore",
+                "code": "SG",
+                "currencyCode": "SGD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Sint Maarten",
+                "code": "SX",
+                "currencyCode": "ANG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Slovakia",
+                "code": "SK",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Slovenia",
+                "code": "SI",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Solomon Islands",
+                "code": "SB",
+                "currencyCode": "SBD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Somalia",
+                "code": "SO",
+                "currencyCode": "SOS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "South Africa",
+                "code": "ZA",
+                "currencyCode": "ZAR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "South Georgia and the South Sandwich Islands",
+                "code": "GS",
+                "currencyCode": "GBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "South Korea",
+                "code": "KR",
+                "currencyCode": "KRW",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "South Sudan",
+                "code": "SS",
+                "currencyCode": "SSP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Spain",
+                "code": "ES",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": [
+                    {
+                        "name": "Álava",
+                        "code": "VI",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Albacete",
+                        "code": "AB",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Alicante",
+                        "code": "A",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Almeria",
+                        "code": "AL",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Asturias",
+                        "code": "O",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Ávila",
+                        "code": "AV",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Badajoz",
+                        "code": "BA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Baleares",
+                        "code": "PM",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Barcelona",
+                        "code": "B",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Burgos",
+                        "code": "BU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Cáceres",
+                        "code": "CC",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Cádiz",
+                        "code": "CA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Cantabria",
+                        "code": "S",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Castellón",
+                        "code": "CS",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Ceuta",
+                        "code": "CE",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Ciudad Real",
+                        "code": "CR",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Córdoba",
+                        "code": "CO",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Cuenca",
+                        "code": "CU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Gerona",
+                        "code": "GI",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Granada",
+                        "code": "GR",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Guadalajara",
+                        "code": "GU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Guipúzcoa",
+                        "code": "SS",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Huelva",
+                        "code": "H",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Huesca",
+                        "code": "HU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Jaén",
+                        "code": "J",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "La Coruña",
+                        "code": "C",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "La Rioja",
+                        "code": "LO",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Las Palmas",
+                        "code": "GC",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "León",
+                        "code": "LE",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Lérida",
+                        "code": "L",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Lugo",
+                        "code": "LU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Madrid",
+                        "code": "M",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Málaga",
+                        "code": "MA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Melilla",
+                        "code": "ML",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Murcia",
+                        "code": "MU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Navarra",
+                        "code": "NA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Orense",
+                        "code": "OU",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Palencia",
+                        "code": "P",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Pontevedra",
+                        "code": "PO",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Salamanca",
+                        "code": "SA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Segovia",
+                        "code": "SG",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Sevilla",
+                        "code": "SE",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Soria",
+                        "code": "SO",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Tarragona",
+                        "code": "T",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Tenerife",
+                        "code": "TF",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Teruel",
+                        "code": "TE",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Toledo",
+                        "code": "TO",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Valencia",
+                        "code": "V",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Valladolid",
+                        "code": "VA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Vizcaya",
+                        "code": "BI",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Zamora",
+                        "code": "ZA",
+                        "countryCode": "ES"
+                    },
+                    {
+                        "name": "Zaragoza",
+                        "code": "Z",
+                        "countryCode": "ES"
+                    }
+                ]
+            },
+            {
+                "name": "Sri Lanka",
+                "code": "LK",
+                "currencyCode": "LKR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Sudan",
+                "code": "SD",
+                "currencyCode": "SDG",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Suriname",
+                "code": "SR",
+                "currencyCode": "SRD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Svalbard and Jan Mayen",
+                "code": "SJ",
+                "currencyCode": "NOK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Swaziland",
+                "code": "SZ",
+                "currencyCode": "SZL",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Sweden",
+                "code": "SE",
+                "currencyCode": "SEK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Switzerland",
+                "code": "CH",
+                "currencyCode": "CHF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Syria",
+                "code": "SY",
+                "currencyCode": "SYP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Taiwan",
+                "code": "TW",
+                "currencyCode": "TWD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tajikistan",
+                "code": "TJ",
+                "currencyCode": "TJS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tanzania",
+                "code": "TZ",
+                "currencyCode": "TZS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Thailand",
+                "code": "TH",
+                "currencyCode": "THB",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Togo",
+                "code": "TG",
+                "currencyCode": "XOF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tokelau",
+                "code": "TK",
+                "currencyCode": "NZD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tonga",
+                "code": "TO",
+                "currencyCode": "TOP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Trinidad and Tobago",
+                "code": "TT",
+                "currencyCode": "TTD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tunisia",
+                "code": "TN",
+                "currencyCode": "TND",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Turkey",
+                "code": "TR",
+                "currencyCode": "TRY",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Turkmenistan",
+                "code": "TM",
+                "currencyCode": "TMT",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Turks and Caicos Islands",
+                "code": "TC",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Tuvalu",
+                "code": "TV",
+                "currencyCode": "AUD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "U.S. Minor Outlying Islands",
+                "code": "UM",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "U.S. Virgin Islands",
+                "code": "VI",
+                "currencyCode": "USD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Uganda",
+                "code": "UG",
+                "currencyCode": "UGX",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Ukraine",
+                "code": "UA",
+                "currencyCode": "UAH",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "United Arab Emirates",
+                "code": "AE",
+                "currencyCode": "AED",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB",
+                "currencyCode": "GBP",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Uruguay",
+                "code": "UY",
+                "currencyCode": "UYU",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Uzbekistan",
+                "code": "UZ",
+                "currencyCode": "UZS",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Vanuatu",
+                "code": "VU",
+                "currencyCode": "VUV",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Vatican City",
+                "code": "VA",
+                "currencyCode": "EUR",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Venezuela",
+                "code": "VE",
+                "currencyCode": "VEF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Vietnam",
+                "code": "VN",
+                "currencyCode": "VND",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Wallis and Futuna",
+                "code": "WF",
+                "currencyCode": "XPF",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Western Sahara",
+                "code": "EH",
+                "currencyCode": "MAD",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Yemen",
+                "code": "YE",
+                "currencyCode": "YER",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Zambia",
+                "code": "ZM",
+                "currencyCode": "ZMK",
+                "featured": false,
+                "states": []
+            },
+            {
+                "name": "Zimbabwe",
+                "code": "ZW",
+                "currencyCode": "ZWL",
+                "featured": false,
+                "states": []
+            }
+        ],
+        "onlyAllowGuests": false,
+        "allowExportAsPdf": false,
+        "allowShareByEmail": false,
+        "allowDeferredPayment": true,
+        "onlyAllowDeferredPayment": false,
+        "eCommerceAnalyticsEnabled": true,
+        "expressCheckoutEnabled": true,
+        "customGatewayEnabled": true,
+        "paymentGateway": "Stripe",
+        "hasPaymentServiceEnabled": true,
+        "hasScaComplianceEnabled": true,
+        "hasActiveDiscountsTriggerableByCode": true,
+        "shippingEnabled": true,
+        "shippingEnabledDefault": true,
+        "gateway": {
+            "publicApiKey": "pk_live_519zyPuH3Hw2ZXWYfr2AIPYbfUTINztAuYQWEmmt43dexEtoUTiwk1MpxDJFb8a3MEXs3vwDDR7CH4e62nNhXyz9900BbRH5Obz",
+            "gateway": "None",
+            "squareLocationId": "GVJ3T6XEFZ1RH"
+        },
+        "mode": "Test",
+        "currency": "usd",
+        "cultureSettings": {
+            "currencySymbol": "CAD$",
+            "numberFormat": "%s %v",
+            "negativeNumberFormat": "- %s %v",
+            "thousandSeparator": ",",
+            "decimalSeparator": ".",
+            "precision": 2
+        },
+        "squareClientId": null,
+        "squareOAuthConnectClientId": null,
+        "squareLocationId": null,
+        "domain": "snipcart.com",
+        "currencies": [
+            {
+                "currency": "cad",
+                "precision": 2,
+                "decimalSeparator": ".",
+                "thousandSeparator": ",",
+                "negativeNumberFormat": "- %s %v",
+                "numberFormat": "%s %v",
+                "currencySymbol": "CAD$",
+                "id": "8dd7932d-5433-4baf-94b0-9dff39ab6e64"
+            }
+        ],
+        "i18n": {
+            "currency": "cad",
+            "precision": 2,
+            "decimalSeparator": ".",
+            "thousandSeparator": ",",
+            "negativeNumberFormat": "- %s %v",
+            "numberFormat": "%s %v",
+            "currencySymbol": "CAD$",
+            "id": "8dd7932d-5433-4baf-94b0-9dff39ab6e64"
+        }
+    },
+    "features": [
+        "CustomerDashboard",
+        "ECommAnalytics"
+    ],
+    "featureFlags": [
+        {
+            "name": "Subscription",
+            "isEnabled": true
+        },
+        {
+            "name": "CurrencyValidation",
+            "isEnabled": false
+        },
+        {
+            "name": "OrderRefundEmailTemplate",
+            "isEnabled": false
+        },
+        {
+            "name": "ECommAnalytics",
+            "isEnabled": true
+        },
+        {
+            "name": "CustomerDashboard",
+            "isEnabled": true
+        },
+        {
+            "name": "AddressAutocomplete",
+            "isEnabled": true
+        },
+        {
+            "name": "UseLegacyShippingCarriers",
+            "isEnabled": true
+        },
+        {
+            "name": "UseEasyPost",
+            "isEnabled": false
+        },
+        {
+            "name": "UseOrderFulfillment",
+            "isEnabled": false
+        }
+    ],
+    "customerNotifications": []
+}

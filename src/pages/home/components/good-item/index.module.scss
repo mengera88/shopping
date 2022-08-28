@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.info {
+    margin-right: 10px;
+    width: 50%;
+}
+.formwrap {
+    display: flex;
+    margin-top: 10px;
+}
+.shop {
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+}
+.price {
+    margin-right: 8px;
+    font-size: 20px;
+}
+.imgWrap {
+    width: 50%;
+}
+.img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: -30px 30px 50px rgb(0 0 0 / 10%);
+}
