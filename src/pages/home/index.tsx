@@ -1,16 +1,26 @@
+import { ArrowBackIcon } from '@chakra-ui/icons'
 import {
-    Box, SkeletonCircle,
+    Box, Button, Drawer,
+    DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter,
+    DrawerHeader,
+    DrawerOverlay, SkeletonCircle,
     SkeletonText
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
+import { useVisible } from '../../hooks'
 import mockData from '../../interface/products.json'
 import { GoodItemType } from '../../interface/type'
+import CartDetail from './components/cart-detail'
 import GoodItem from './components/good-item'
 import styles from './index.module.scss'
+
+type drawerSizeType = 'md' | 'full'
 
 export default function Home(){
     const [goods, setGoods] = useState<Array<GoodItemType>>([])
     const [loading, setLoading] = useState<boolean>(false)
+    const {visible, open, close} = useVisible(false)
+    const [drawerSise, setDrawerSize] = useState<drawerSizeType>('md')
 
     const getaData = () => {
         setLoading(true)
@@ -25,6 +35,11 @@ export default function Home(){
         getaData()
     }, [])
 
+    const handleAddToChart = (id: string, quantity: number) => {
+        console.log(id, quantity)
+        open()
+    }
+
     if (loading) {
         return (
             <Box padding='6' margin='60'>
@@ -37,8 +52,42 @@ export default function Home(){
     return (
         <div className={styles.wrapper}>
             {!!goods?.length && goods.map(good => (
-                <GoodItem key={good.uniqueId} data={good} />
+                <GoodItem key={good.uniqueId} data={good} addToChart={handleAddToChart} />
             ))}
+            <Drawer
+                isOpen={visible}
+                placement='right'
+                onClose={close}
+                size={drawerSise}
+            >
+                <DrawerOverlay />
+                <DrawerContent>
+                    <DrawerCloseButton />
+                    <DrawerHeader>
+                       {drawerSise === 'full' && (
+                        <>
+                        <ArrowBackIcon />
+                        continue shopping
+                        </>
+                       )}
+                       {drawerSise === 'md' && (
+                        <>
+                        Cart summary
+                        </>
+                       )}
+                        
+                    </DrawerHeader>
+                    <DrawerBody>
+                        <CartDetail goods={goods} />
+                    </DrawerBody>
+                    <DrawerFooter>
+                        <Button variant='outline' mr={3} onClick={close}>
+                        Cancel
+                        </Button>
+                        <Button colorScheme='blue'>Save</Button>
+                    </DrawerFooter>
+                </DrawerContent>
+            </Drawer>
         </div>
     )
 }

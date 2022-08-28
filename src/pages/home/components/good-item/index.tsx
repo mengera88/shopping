@@ -6,19 +6,26 @@ import {
     NumberInputStepper,
     Text
 } from '@chakra-ui/react'
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
 interface GoodItemProps {
     data: GoodItemType
+    addToChart: (id: string, quantity: number) => void
 }
 
-export default function GoodItem({data}: GoodItemProps) {
+export default function GoodItem({data, addToChart}: GoodItemProps) {
     const [quantity, setQuantity] = useState<number | string>(1)
-    const handleQuantityChange = (e: string | number) => {
+
+    const handleQuantityChange = useCallback((e: string | number) => {
         setQuantity(e)
-    }
+    }, [])
+
+    const addChart = useCallback(() => {
+        addToChart && addToChart(data.uniqueId, +quantity)
+    }, [quantity, data])
+
     return (
         <div className={styles.item} key={data.uniqueId}>
             <div className={styles.info}>
@@ -38,7 +45,7 @@ export default function GoodItem({data}: GoodItemProps) {
                 </div>
                 <div className={styles.shop}>
                     <div className={styles.price}>${(data.unitPrice * (+quantity)).toFixed(2)}</div>
-                    <Button colorScheme='blue'>ADD TO CHART</Button>
+                    <Button colorScheme='blue' onClick={addChart}>ADD TO CHART</Button>
                 </div>
             </div>
             <div className={styles.imgWrap}>

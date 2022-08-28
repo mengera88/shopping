@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 32px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img {
+    width: 40px;
+    height: 32px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.desc {
+    margin-top: 16px;
+    color: #999;
+    margin-bottom: 16px;
+}
+.actionWrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
