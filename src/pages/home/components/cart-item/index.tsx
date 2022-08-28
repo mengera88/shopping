@@ -1,4 +1,12 @@
 import { DeleteIcon } from '@chakra-ui/icons'
+import {
+    NumberDecrementStepper,
+    NumberIncrementStepper,
+    NumberInput,
+    NumberInputField,
+    NumberInputStepper
+} from '@chakra-ui/react'
+import { useCallback, useState } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
@@ -7,6 +15,12 @@ interface CartItemProps {
 }
 
 export default function CartItem({data}: CartItemProps) {
+    const [quantity, setQuantity] = useState<number | string>(1)
+    
+    const handleQuantityChange = useCallback((e: string | number) => {
+        setQuantity(e)
+    }, [])
+
     return (
         <div className={styles.wrapper}>
             <div className={styles.header}>
@@ -19,10 +33,17 @@ export default function CartItem({data}: CartItemProps) {
             </div>
             <div className={styles.actionWrap}>
                 <div>
-                    dsd
-                </div>
-                <div>
-                    dsd
+                    <div className={styles.quatitle}>QUANTITY</div>
+                    <NumberInput value={quantity} onChange={handleQuantityChange} size="md">
+                        <NumberInputField />
+                        <NumberInputStepper>
+                            <NumberIncrementStepper />
+                            <NumberDecrementStepper />
+                        </NumberInputStepper>
+                    </NumberInput>
+                    </div>
+                <div className={styles.priceWrap}>
+                    ${(data.unitPrice * (+quantity)).toFixed(2)}
                 </div>
             </div>
         </div>

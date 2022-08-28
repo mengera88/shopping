@@ -19,8 +19,16 @@
     color: #999;
     margin-bottom: 16px;
 }
+.quatitle {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 4px;
+}
 .actionWrap {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+}
+.priceWrap {
+    padding-bottom: 8px;
 }

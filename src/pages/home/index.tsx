@@ -6,10 +6,11 @@ import {
     DrawerOverlay, SkeletonCircle,
     SkeletonText
 } from '@chakra-ui/react'
+import { cloneDeep, findIndex } from 'lodash'
 import { useEffect, useState } from 'react'
+import { useDispatchStore, useStateStore } from '../../context'
 import { useVisible } from '../../hooks'
 import mockData from '../../interface/products.json'
-import { GoodItemType } from '../../interface/type'
 import CartDetail from './components/cart-detail'
 import GoodItem from './components/good-item'
 import styles from './index.module.scss'
@@ -17,7 +18,8 @@ import styles from './index.module.scss'
 type drawerSizeType = 'md' | 'full'
 
 export default function Home(){
-    const [goods, setGoods] = useState<Array<GoodItemType>>([])
+    const { goods, carts } = useStateStore()
+    const dispatch = useDispatchStore()
     const [loading, setLoading] = useState<boolean>(false)
     const {visible, open, close} = useVisible(false)
     const [drawerSise, setDrawerSize] = useState<drawerSizeType>('md')
@@ -27,7 +29,10 @@ export default function Home(){
         // 此处如果有后端服务，改成接口请求
         setTimeout(() => {
             const res = mockData
-            setGoods(res.cart.items)
+            dispatch({
+                type: 'setgoods',
+                data: res.cart.items
+            })
             setLoading(false)
         }, 300)
     }
@@ -35,9 +40,30 @@ export default function Home(){
         getaData()
     }, [])
 
-    const handleAddToChart = (id: string, quantity: number) => {
-        console.log(id, quantity)
+    const handleAddToChart = (id: string, index: number) => {
+        console.log(id)
+        const good = (goods||[])[index]
+        const newCarts = cloneDeep(carts) || []
+        const cartIndex = findIndex(carts, (cart) => { return cart.uniqueId === id})
+        if (cartIndex !== -1) {
+            newCarts[cartIndex].quantity =+ good.quantity
+        } else {
+            newCarts.push(good)
+        }
+        dispatch({
+            type: 'setcarts',
+            data: newCarts
+        })
         open()
+    }
+
+    const handleQuantityChange = (e: number | string, index: number) => {
+        const newGoods = cloneDeep(goods) || []
+        newGoods[index].quantity = +e
+        dispatch({
+            type: 'setgoods',
+            data: newGoods
+        })
     }
 
     if (loading) {
@@ -51,8 +77,8 @@ export default function Home(){
     
     return (
         <div className={styles.wrapper}>
-            {!!goods?.length && goods.map(good => (
-                <GoodItem key={good.uniqueId} data={good} addToChart={handleAddToChart} />
+            {!!goods?.length && goods.map((good, index) => (
+                <GoodItem key={good.uniqueId} data={good} addToChart={(id) => handleAddToChart(id, index)} onQuantityChange={(e) => handleQuantityChange(e, index)} />
             ))}
             <Drawer
                 isOpen={visible}
@@ -78,7 +104,7 @@ export default function Home(){
                         
                     </DrawerHeader>
                     <DrawerBody>
-                        <CartDetail goods={goods} />
+                        <CartDetail goods={carts} />
                     </DrawerBody>
                     <DrawerFooter>
                         <Button variant='outline' mr={3} onClick={close}>

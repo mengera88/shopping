@@ -6,25 +6,25 @@ import {
     NumberInputStepper,
     Text
 } from '@chakra-ui/react'
-import { useCallback, useState } from 'react'
+import { useCallback } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
 interface GoodItemProps {
     data: GoodItemType
-    addToChart: (id: string, quantity: number) => void
+    addToChart: (id: string) => void
+    onQuantityChange: (e: string | number) => void
 }
 
-export default function GoodItem({data, addToChart}: GoodItemProps) {
-    const [quantity, setQuantity] = useState<number | string>(1)
+export default function GoodItem({data, addToChart, onQuantityChange}: GoodItemProps) {
 
     const handleQuantityChange = useCallback((e: string | number) => {
-        setQuantity(e)
+        onQuantityChange && onQuantityChange(e)
     }, [])
 
     const addChart = useCallback(() => {
-        addToChart && addToChart(data.uniqueId, +quantity)
-    }, [quantity, data])
+        addToChart && addToChart(data.uniqueId)
+    }, [data])
 
     return (
         <div className={styles.item} key={data.uniqueId}>
@@ -34,7 +34,7 @@ export default function GoodItem({data, addToChart}: GoodItemProps) {
                 <div className={styles.formwrap}>
                     <div>
                         <div>QUANTITY</div>
-                        <NumberInput value={quantity} onChange={handleQuantityChange}>
+                        <NumberInput value={data.quantity} onChange={handleQuantityChange}>
                             <NumberInputField />
                             <NumberInputStepper>
                                 <NumberIncrementStepper />
@@ -44,7 +44,7 @@ export default function GoodItem({data, addToChart}: GoodItemProps) {
                     </div>
                 </div>
                 <div className={styles.shop}>
-                    <div className={styles.price}>${(data.unitPrice * (+quantity)).toFixed(2)}</div>
+                    <div className={styles.price}>${(data.unitPrice * (+data.quantity)).toFixed(2)}</div>
                     <Button colorScheme='blue' onClick={addChart}>ADD TO CHART</Button>
                 </div>
             </div>

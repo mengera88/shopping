@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
+import { GoodItemType } from '../interface/type';
 
 interface Item {
     productId: number,
@@ -8,12 +9,18 @@ interface Item {
     salePrice: 222
 }
 
-const initialState = {
-    list: []
+interface State {
+    goods?: GoodItemType[];
+    carts?: GoodItemType[]
 }
 
-const StateContext = createContext({});
-const DispatchContext = createContext({});
+const initialState: State = {
+    goods: [],
+    carts: []
+}
+
+const StateContext = createContext<State>(initialState);
+const DispatchContext = createContext((item: any) => {});
 
 export function useStateStore() {
     return useContext(StateContext);
@@ -26,13 +33,18 @@ export function useDispatchStore() {
 // todo：稍后写这里的数据流转逻辑
 function reducer(state: typeof initialState, action: any) {
     switch (action.type) {
-      case 'addcart':
-        
-        // return {count: state.count + 1};
-      case 'deletecart':
-        // return {count: state.count  1};
-      default:
-        throw new Error();
+        case 'setgoods':
+            return {
+                ...state,
+                goods: action.data
+            }
+        case 'setcarts':
+            return {
+                ...state,
+                carts: action.data
+            }
+        default:
+            throw new Error();
     }
   }
 
@@ -42,7 +54,7 @@ export function StoreProvider({ children }: any) {
 
     return (
         <StateContext.Provider value={state}>
-            <DispatchContext.Provider value={dispatch}>
+            <DispatchContext.Provider value={dispatch as any}>
                 {children}
             </DispatchContext.Provider>
         </StateContext.Provider>
