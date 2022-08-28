@@ -41,12 +41,11 @@ export default function Home(){
     }, [])
 
     const handleAddToChart = (id: string, index: number) => {
-        console.log(id)
         const good = (goods||[])[index]
         const newCarts = cloneDeep(carts) || []
         const cartIndex = findIndex(carts, (cart) => { return cart.uniqueId === id})
         if (cartIndex !== -1) {
-            newCarts[cartIndex].quantity =+ good.quantity
+            newCarts[cartIndex].quantity += good.quantity
         } else {
             newCarts.push(good)
         }
@@ -57,9 +56,10 @@ export default function Home(){
         open()
     }
 
-    const handleQuantityChange = (e: number | string, index: number) => {
+    const handleQuantityChange = (e: number, index: number) => {
         const newGoods = cloneDeep(goods) || []
-        newGoods[index].quantity = +e
+        console.log(e, index, newGoods)
+        newGoods[index].quantity = e
         dispatch({
             type: 'setgoods',
             data: newGoods
@@ -104,11 +104,11 @@ export default function Home(){
                         
                     </DrawerHeader>
                     <DrawerBody>
-                        <CartDetail goods={carts} />
+                        <CartDetail />
                     </DrawerBody>
                     <DrawerFooter>
                         <Button variant='outline' mr={3} onClick={close}>
-                        Cancel
+                            Cancel
                         </Button>
                         <Button colorScheme='blue'>Save</Button>
                     </DrawerFooter>

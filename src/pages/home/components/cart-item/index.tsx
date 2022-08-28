@@ -6,19 +6,19 @@ import {
     NumberInputField,
     NumberInputStepper
 } from '@chakra-ui/react'
-import { useCallback, useState } from 'react'
+import { useCallback } from 'react'
 import { GoodItemType } from '../../../../interface/type'
 import styles from './index.module.scss'
 
 interface CartItemProps {
     data: GoodItemType
+    onQuantityChange: (e: number) => void
 }
 
-export default function CartItem({data}: CartItemProps) {
-    const [quantity, setQuantity] = useState<number | string>(1)
+export default function CartItem({data, onQuantityChange}: CartItemProps) {
     
     const handleQuantityChange = useCallback((e: string | number) => {
-        setQuantity(e)
+        onQuantityChange && onQuantityChange(+e)
     }, [])
 
     return (
@@ -34,7 +34,7 @@ export default function CartItem({data}: CartItemProps) {
             <div className={styles.actionWrap}>
                 <div>
                     <div className={styles.quatitle}>QUANTITY</div>
-                    <NumberInput value={quantity} onChange={handleQuantityChange} size="md">
+                    <NumberInput value={data.quantity} onChange={handleQuantityChange} size="md">
                         <NumberInputField />
                         <NumberInputStepper>
                             <NumberIncrementStepper />
@@ -43,7 +43,7 @@ export default function CartItem({data}: CartItemProps) {
                     </NumberInput>
                     </div>
                 <div className={styles.priceWrap}>
-                    ${(data.unitPrice * (+quantity)).toFixed(2)}
+                    ${(data.unitPrice * (+data.quantity)).toFixed(2)}
                 </div>
             </div>
         </div>

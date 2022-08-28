@@ -13,13 +13,13 @@ import styles from './index.module.scss'
 interface GoodItemProps {
     data: GoodItemType
     addToChart: (id: string) => void
-    onQuantityChange: (e: string | number) => void
+    onQuantityChange: (e: number) => void
 }
 
 export default function GoodItem({data, addToChart, onQuantityChange}: GoodItemProps) {
 
     const handleQuantityChange = useCallback((e: string | number) => {
-        onQuantityChange && onQuantityChange(e)
+        onQuantityChange && onQuantityChange(typeof e === 'string' ? parseInt(e) : e)
     }, [])
 
     const addChart = useCallback(() => {
