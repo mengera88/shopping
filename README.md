@@ -10,6 +10,8 @@
 
 在状态管理中，由于是比较小型的项目，没有使用redux等比较重的状态管理方案，而是使用的context作为轻量级的状态管理方案，详见 context 文件夹。
 
+项目部署地址： https://stellar-mandazi-fb0f3f.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
