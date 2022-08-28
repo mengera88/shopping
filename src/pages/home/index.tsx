@@ -55,7 +55,7 @@ export default function Home(props: any){
             data: newCarts
         })
         open()
-    }, [goods, carts])
+    }, [goods, carts, open, dispatch])
 
     const handleQuantityChange = useCallback((e: number, index: number) => {
         const newGoods = cloneDeep(goods) || []
@@ -64,7 +64,7 @@ export default function Home(props: any){
             type: 'setgoods',
             data: newGoods
         })
-    }, [goods])
+    }, [goods, dispatch])
 
     const handleDetail = () => {
         setDrawerSize('full')
