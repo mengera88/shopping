@@ -1,6 +1,6 @@
 import { DeleteIcon } from '@chakra-ui/icons'
 import {
-    NumberDecrementStepper,
+    Link, NumberDecrementStepper,
     NumberIncrementStepper,
     NumberInput,
     NumberInputField,
@@ -12,12 +12,16 @@ import styles from './index.module.scss'
 interface CartItemProps {
     data: GoodItemType
     onQuantityChange: (e: number) => void
+    onDelete: () => void
 }
 
-export default function CartItem({data, onQuantityChange}: CartItemProps) {
+export default function CartItem({data, onQuantityChange, onDelete}: CartItemProps) {
     
     const handleQuantityChange = (e: string | number) => {
         onQuantityChange && onQuantityChange(+e)
+    }
+    const handleDelete = () => {
+        onDelete && onDelete()
     }
 
     return (
@@ -25,7 +29,7 @@ export default function CartItem({data, onQuantityChange}: CartItemProps) {
             <div className={styles.header}>
                 <img className={styles.img} src={data.image} alt="" />
                 <span className={styles.title}>{data.name}</span>
-                <DeleteIcon />
+                <Link><DeleteIcon  onClick={handleDelete}/></Link>
             </div>
             <div className={styles.desc}>
                 {data.description}

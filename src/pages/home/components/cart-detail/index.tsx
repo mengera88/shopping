@@ -1,5 +1,5 @@
 import { cloneDeep } from 'lodash'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useDispatchStore, useStateStore } from '../../../../context'
 import CartItem from '../cart-item'
 
@@ -18,6 +18,15 @@ export default function CartDetail() {
         })
     }
 
+    const handleDelete = useCallback((index: number) => {
+        const newCarts = cloneDeep(carts) || []
+        newCarts.splice(index, 1)
+        dispatch({
+            type: 'setcarts',
+            data: newCarts
+        })
+    }, [carts, dispatch])
+
     useEffect(() => {
         let sum = 0
         carts?.forEach(good => {
@@ -30,7 +39,7 @@ export default function CartDetail() {
         <div>
             {!!carts?.length && carts.map((good, index) => (
                 <div  key={good.uniqueId}>
-                    <CartItem data={good} onQuantityChange={(e) => handleQuantityChange(e, index)} />
+                    <CartItem data={good} onQuantityChange={(e) => handleQuantityChange(e, index)} onDelete={() => {handleDelete(index)}} />
                 </div>
             ))}
             <div>
